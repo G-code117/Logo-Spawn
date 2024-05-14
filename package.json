@@ -1,0 +1,20 @@
+{
+  "name": "logo-spawn",
+  "version": "1.0.0",
+  "description": "logo generator",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gordon",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.3"
+  }
+}
