@@ -3,7 +3,7 @@ const {Square, Circle, Triangle} = require('../lib/shape');
 describe('Circle', () => {
     test('should render svg for a green circle element', () => {
         const expectedSvg = [
-            '<circle cx="150" cy="100" r="80" fill="blue"/>',
+            '<circle cx="150" cy="100" r="80" fill="blue" />',
         '<h1>Todo Today</h1>',
         `<p>${formatDate(new Date())}</p>`,
         '</header>',
@@ -13,7 +13,7 @@ describe('Circle', () => {
     });
     test('should accept a fill color input', () => {
         const expectedSvg = [
-          '<circle cx="150" cy="100" r="80" fill="purple"/>',
+          '<circle cx="150" cy="100" r="80" fill="purple" />',
           '<h1>Todo Today</h1>',
           `<p>${formatDate(new Date())}</p>`,
           '</header>',
@@ -28,7 +28,7 @@ describe('Circle', () => {
   describe('Square', () => {
     test('should render svg for a red square element', () => {
         const expectedSvg = [
-            '<rect x="90" y="40" width="120" height="120" fill="red"/>',
+            '<rect x="90" y="40" width="120" height="120" fill="red" />',
         '<h1>Todo Today</h1>',
         `<p>${formatDate(new Date())}</p>`,
         '</header>',
@@ -38,7 +38,7 @@ describe('Circle', () => {
     });
     test('should accept a fill color input', () => {
         const expectedSvg = [
-          '<rect x="90" y="40" width="120" height="120" fill="pink"/>',
+          '<rect x="90" y="40" width="120" height="120" fill="pink" />',
           '<h1>Todo Today</h1>',
           `<p>${formatDate(new Date())}</p>`,
           '</header>',
@@ -53,7 +53,7 @@ describe('Circle', () => {
   describe('Triangle', () => {
     test('should render svg for an green triangle element', () => {
         const expectedSvg = [
-            '<triangle points="150, 18, 244, 182, 56, 182" fill="green"/>',
+            '<triangle points="150, 18, 244, 182, 56, 182" fill="green" />',
         '<h1>Todo Today</h1>',
         `<p>${formatDate(new Date())}</p>`,
         '</header>',
@@ -65,7 +65,7 @@ describe('Circle', () => {
     });
     test('should accept a fill color input', () => {
         const expectedSvg = [
-          '<triangle points="150, 18, 244, 182, 56, 182" fill="green"/>',
+          '<triangle points="150, 18, 244, 182, 56, 182" fill="green" />',
           '<h1>Todo Today</h1>',
           `<p>${formatDate(new Date())}</p>`,
           '</header>',
