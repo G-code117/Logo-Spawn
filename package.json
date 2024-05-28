@@ -9,6 +9,7 @@
     "test": "tests"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "author": "Gordon",
